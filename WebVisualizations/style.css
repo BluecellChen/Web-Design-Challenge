@@ -1,0 +1,115 @@
+body {
+    background-color:  #e7e6e3;
+    position: relative;
+}
+.navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+
+
+.navbar-light .navbar-brand {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia,Serif;
+    background-color:  #2cb6b6;
+}
+
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.container-fluid{
+    padding: 40px;
+}
+
+img{
+    float: left;
+}
+
+.card-body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-title {
+    color: #2cb6b6;
+    font-weight: bold;
+    font-family: Georgia,Serif;
+}
+
+h3 {
+    color: #2cb6b6;
+    font-weight: bold;
+    font-family: Georgia,Serif;
+}
+
+h5 {
+    color: #2cb6b6;
+    font-weight: bold;
+    font-family: Georgia,Serif;
+    text-align: center;
+}
+p {
+    line-height: 2;
+    color: rgb(129, 126, 126);
+    font-size: 15px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: #2cb6b6 !important;
+    }
+}
+
+
+
+.card {
+    margin: auto;
+    float: none;
+    margin-bottom: 5px;
+}
+
+
+footer{
+    background-color: rgb(95, 94, 94);
+    border-top-width: 5px; 
+    border-top-style: solid; 
+    border-top-color: #2cb6b6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-copyright {
+    color: white
+}
+
+#comparison {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.table {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(129, 126, 126);
+    border: none;
+}
+.tbody {
+    color: rgb(129, 126, 126);
+}
+
