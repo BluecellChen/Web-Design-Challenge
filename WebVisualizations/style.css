@@ -99,6 +99,7 @@ footer{
 #comparison {
     background-color: white;
     margin-top: 50px;
+    margin-bottom: 100px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -112,4 +113,3 @@ footer{
 .tbody {
     color: rgb(129, 126, 126);
 }
-
